@@ -21,7 +21,7 @@
     // Journal quality is shown on every result but does not change the ranking (all 1). Set a tier
     // below 1 to push it down; tested values: C 0.85, D 0.75, P 0.85 (see the tuning notes).
     tierWeights: { A1: 1, A2: 1, B: 1, C: 1, D: 1, P: 1 },
-    tierTieWindow: 5,       // papers within 5 match points: the more reliable journal goes first
+    tierTieWindow: 10,      // papers within 10 match points: the more reliable journal goes first
     tierLevels: { A1: 0, A2: 0, B: 0, C: 1, P: 1, D: 2 },   // A1, A2 and B count as one level
     semanticWeight: 0,      // meaning-based re-ordering tested (BGE-small, +0.002 to +0.021 nDCG) and left off; see tuning notes
     recencyBoost: 0,        // 0 = off; up to 0.3
