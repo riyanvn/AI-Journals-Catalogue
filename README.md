@@ -2,7 +2,7 @@
 
 A searchable collection of academic scholarship on artificial intelligence and law in India. Every paper shows how reliable its journal is, from indexed peer-reviewed journals to unreviewed preprints.
 
-**Live site:** https://riyanvn.github.io/ai-journals-catalogue/
+**Live site:** https://riyanvn.github.io/AI-Journals-Catalogue/
 
 ## How this repository is updated
 
